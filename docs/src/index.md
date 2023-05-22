@@ -1,7 +1,14 @@
-# Example
+# MWE2124
 
-Example Julia package repo.
+MWE2124 Julia package repo.
 
 ```@autodocs
-Modules = [Example]
+Modules = [MWE2124]
+```
+
+```@example
+using MWE2124
+using Plots
+
+MWE2124.hello(10)
 ```

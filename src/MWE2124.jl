@@ -1,4 +1,4 @@
-module Example
+module MWE2124
 export hello, domath
 
 """

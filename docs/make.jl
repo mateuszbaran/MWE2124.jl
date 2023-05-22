@@ -1,5 +1,4 @@
-using Documenter, Example
+using Documenter, MWE2124, Plots
 
-makedocs(modules = [Example], sitename = "Example.jl")
+makedocs(modules = [MWE2124], sitename = "MWE2124.jl")
 
-deploydocs(repo = "github.com/JuliaLang/Example.jl.git")
